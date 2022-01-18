@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<title>LELKASA site</title>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon website.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+        if (!navigator.serviceWorker.controller) {
+            navigator.serviceWorker.register("sw.js").then(function (reg) {
+                console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+
+
+
+<body>
+    
+        <nav>
+            <a herf="#LOGO"> </a>
+            <h4>Skyron.neocities.org</h4>
+            <ul>
+                <li> <a href="/index.html">Home</a> </li>
+                <li> <a href="/iso-files/index.html">ISO Files</a> </li>
+                <li> <a href="/malware/index.html">Malware</a> </li>
+                <li> <a href="https://www.youtube.com/channel/UCWJgm7ZUkiignw35pPdMlwQ">Youtube Channel</a> </li>
+                <li> <a href="/about-me/index.html">About Me</a> </li>
+            </ul>
+
+        </nav>
+   
+    <header> </header>
+
+
+    <center><h1>Welcome to Skyron</h1></center>
+
+    <p>
+        NOTE: This site is in beta so it can be updated in anytime
+    </p>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/sw.js')
+                .then(function () { console.log("Service Worker Registered"); });
+        }
+    </script>
+
+</body>
+
+</html>
+
+<script>src = "script.js"</script>
+<script>src = "app.js"</script>

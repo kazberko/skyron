@@ -1,0 +1,17 @@
+{
+  "name": "LELKASA web",
+  "short_name": "LELKASA",
+  "theme_color": "#3F3F46",
+  "background_color": "#202225",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "https://lelkasa.github.io/",
+  "description": "Lelkasa 's website",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://lelkasa.github.io/favicon%20website.png",
+      "sizes": "1920x1080"
+    }
+  ]
+}

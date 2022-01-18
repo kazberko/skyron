@@ -1,0 +1,123 @@
+* {
+    background-color: #3F3F46;
+    background-image: linear-gradient(#3F3F46, #202225);
+    color: #ffffff;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+   
+
+/*nav bar start*/
+
+/*nav bar end */
+
+
+
+/* css loader line windows 10 loading animation*/
+
+
+
+
+
+
+
+/*nav bar*/
+
+
+/*nav bar start*/
+
+
+*,:before,
+*:after{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    background-color: rgb(0,0,0,0.6);
+    position: fixed sticky;
+    top: 0;
+    padding: 25px 30px ;
+    font-family: "Poppins",sans-serif;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgb(0,0,0,0.15);
+}
+header {
+    height: 00px;
+    background: url("");
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(10px);
+}
+
+ul {
+    list-style: none;
+    backdrop-filter: blur(10px);
+}
+
+
+li{
+    display:inline-block;
+
+}
+
+li a{
+    margin-left:40px;
+
+}
+
+nav a {
+    color: #ffffff;
+    letter-spacing:1px;
+    text-decoration:none;
+}
+
+
+/*nav bar end */
+
+
+
+
+/* custom scrollbar*/
+
+::-webkit-scrollbar{
+    width: 25px;
+}
+
+::-webkit-scrollbar-track{
+    border:7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+        
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(
+        45deg,
+    #06dee1,
+    #79ff6c
+
+     );
+
+    border-radius:3px;
+}
+
+
+
+/* stuff */
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+
+
